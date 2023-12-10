@@ -17,6 +17,7 @@ variables {
   ]
   cpus                         = 2
   memory                       = 2048
+  # CHANGEME 40m is OK for MacBookPRO and may be not OK for 
   ssh_timeout                  = "40m"
   # CHANGEME For build in Linux
   # qemu_binary                  = "qemu-kvm"

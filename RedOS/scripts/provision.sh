@@ -29,7 +29,16 @@ yum install -y \
     conntrack-tools \
     telnet \
     s3fs-fuse \
-    mc
+    mc \
+    gcc \
+    make \
+    wget \
+    bzip2 \
+    dkms \
+    patch \
+    net-tools \
+    git
+
 
 wget https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-amd64 -O /usr/local/bin/jq
 chmod 755 /usr/local/bin/jq
